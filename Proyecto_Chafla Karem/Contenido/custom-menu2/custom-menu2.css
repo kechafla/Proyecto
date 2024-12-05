@@ -1,0 +1,27 @@
+.container-menu {
+    display: flex;
+    list-style-type: none;
+    background-color: cornsilk; /* Cambiar el color de fondo a negro */
+    justify-content: center; /* Centrar el contenido */
+    padding: 0;
+    margin: 0;
+}
+
+.container-menu li {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    color: white; /* Cambiar el color del texto a blanco para que contraste con el fondo negro */
+}
+
+.container-menu li:hover {
+    background-color: darkblue;
+    color: black;
+}
+
+.container-menu li img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
